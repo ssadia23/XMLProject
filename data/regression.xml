@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "regression">
+
+<test name = "LoginTest">
+
+<parameter name = "username" value = "demo@techfios.com"/>
+<parameter name = "password" value = "abc123"/>
+
+<parameter name = "fullname" value = "Lost"/>
+<parameter name = "company" value = "Google"/>
+<parameter name = "email" value = "dontfindme@gmail.com"/>
+<parameter name = "phone" value = "868-8989"/>
+<parameter name = "address" value = "jfndkhgkdsf"/>
+<parameter name = "city" value = "queens"/>
+<parameter name = "state" value = "NY"/>
+<parameter name = "zip" value = "33333"/>
+<parameter name = "country" value = "Iceland"/>
+
+
+<classes>
+
+<class name ="test.LoginTest"/> <!-- to inject data to test page qualifyname -->
+<class name ="test.AddCustomerTest"/>
+
+</classes>
+
+</test>
+
+</suite>
